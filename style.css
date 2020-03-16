@@ -1,0 +1,174 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+
+  /* General text styling */
+  html{
+    font-size: 10px;
+  } 
+
+  h1,
+  h2 {
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 4px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+  
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+
+  body {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 2rem;
+    line-height: 1.6; 
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+
+  }
+
+  h2 + p {
+    text-indent: 20px;
+  }
+  
+/* Links */
+a[href^="https://"] {
+    background: url(link.png) center right no-repeat;
+    padding-right: 15px;
+}
+
+a:link {
+  color: #a66;
+  }
+  
+  a:visited {
+    color: rgb(63, 43, 32);
+  }
+  
+  a:focus {
+  border-bottom: 1px solid;
+  background-clip: rgba(100, 202, 216, 0.726);
+  text-decoration: none;
+  
+  }
+  a:hover {
+    border-bottom: 1px solid;
+    background: rgba(30, 194, 159, 0.445);
+    text-decoration: none;
+  
+  }
+  
+  a:active {
+    background: #c9742fa4;
+    color:rgb(236, 247, 228);
+  }
+
+  a {
+    outline: none;
+  }
+
+/* Lists */
+
+ul,
+ol{
+    margin-bottom: 1.6rem; 
+}
+
+ul li {
+    list-style-type: square;
+    }
+
+    /* Navigation menu */
+    
+    nav ul {
+        padding-left: 0;
+        width: 100%;
+        margin-top: 5px;
+      }
+      nav  li{
+          margin-bottom: 20px;
+          list-style-type: none;
+      }
+
+      nav a {
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        width: 80%;
+        margin-right: 3px;
+        text-align: center;
+        line-height: 3;
+        border: 2px solid #a66;
+        /* color: #a66; */
+
+      }
+      
+  nav li:last-child a {
+    margin-right: 0;
+  }
+  
+    nav a:link
+    nav a:visited, 
+    nav a:focus {
+    background-color: #a66;
+    color: #fff; 
+  }
+  
+  nav a:hover {     
+    background-color: #a66;
+    color: #fff; 
+  }
+  
+  nav a:active {
+    background: #909090;
+    color: #fff; 
+  } 
+   
